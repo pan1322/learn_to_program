@@ -5,6 +5,7 @@ start_year = gets.chomp.to_i
 puts 'Enter the ending year:'
 end_year = gets.chomp.to_i
 puts ''
+puts 'Here are all of the leap years between ' + start_year.to_s + ' and ' + end_year.to_s + ':'
 
 while start_year <= end_year
 	if  start_year.to_i % 4 == 0 
@@ -14,3 +15,5 @@ while start_year <= end_year
 	end
 	start_year = start_year + 1
 end
+
+puts 'Thank you. Come Again!'
