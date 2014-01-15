@@ -79,9 +79,7 @@ def bottles_of_beer(number=10)
 			number -= 1
 			bottles_of_beer(number)
 		end
-	else
-		return "Please enter a number greater than zero."
 	end
 end
 
-bottles_of_beer(33)
+bottles_of_beer
