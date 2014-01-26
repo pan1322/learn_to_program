@@ -6,7 +6,7 @@ end
 
 def recursive_sort unsorted_array, sorted_array
 	if unsorted_array.length <= 0
-		return sorted_array			# Once the unsorted array has no further characters, the method returns the sorted array.
+		return sorted_array	
 	end
 
 	smallest = unsorted_array.pop
