@@ -6,5 +6,5 @@ def shuffle shuffle_array
 
 end
 
-puts shuffle %w{ one two three four five}
+puts shuffle %w{ one two three four five seven}
 puts shuffle [1,2,3,4,5]

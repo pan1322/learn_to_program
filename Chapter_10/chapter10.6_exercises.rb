@@ -50,7 +50,7 @@ def english_number(number)
 
 	 	if left > 0
 	 		num_string = num_string + '-'
-	 	end	
+	 	end
 	 end
 
 	 write = left
@@ -58,11 +58,11 @@ def english_number(number)
 
 	 if write > 0
 	 	num_string = num_string + ones_place[write-1]
-	 end 
-	
+	 end
+
 	num_string
 end
 
-puts english_number(1555)
+puts english_number(155)
 puts english_number(15)
 

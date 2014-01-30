@@ -42,7 +42,7 @@ def english_number(number)
 			elsif left == 8
 				num_string = num_string + 'eighteen'
 			elsif left == 9
-				num_string = num_string + 'nineteen'	
+				num_string = num_string + 'nineteen'
 			end
 
 			left = 0
@@ -66,7 +66,7 @@ def english_number(number)
 
 		if left > 0
 			num_string = num_string + '-'
-		end	
+		end
 	end
 
 	write = left
@@ -109,4 +109,4 @@ puts english_number(17)
 puts english_number(32)
 puts english_number(88)
 puts english_number(99)
-puts english_number(100)
+puts english_number(200)

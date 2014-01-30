@@ -50,7 +50,7 @@ def english_number(number)
 
 	 	if left > 0
 	 		num_string = num_string + '-'
-	 	end	
+	 	end
 	 end
 
 	 write = left
@@ -58,8 +58,8 @@ def english_number(number)
 
 	 if write > 0
 	 	num_string = num_string + ones_place[write-1]
-	 end 
-	
+	 end
+
 	num_string.capitalize
 end
 
@@ -82,4 +82,4 @@ def bottles_of_beer(number=10)
 	end
 end
 
-bottles_of_beer
+bottles_of_beer(15)

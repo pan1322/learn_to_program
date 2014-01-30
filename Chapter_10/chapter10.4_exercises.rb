@@ -10,4 +10,4 @@ def sort arr
 	sort(less) + [middle] + sort(more)
 end
 
-puts(sort(%w(outliers Freakonimcs Blink Zed junk doll Fun)).join(' '))
+puts(sort(%w(outliers Freakonimcs Blink Zed junk doll Fun done)).join(' '))
