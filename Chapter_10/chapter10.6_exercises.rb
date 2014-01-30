@@ -63,6 +63,6 @@ def english_number(number)
 	num_string
 end
 
-puts english_number(155)
+puts english_number(165)
 puts english_number(15)
 

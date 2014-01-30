@@ -82,4 +82,4 @@ def bottles_of_beer(number=10)
 	end
 end
 
-bottles_of_beer(15)
+bottles_of_beer(20)
